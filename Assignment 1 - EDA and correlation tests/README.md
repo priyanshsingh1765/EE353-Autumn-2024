@@ -12,3 +12,41 @@ SQL commands were used in python itself employing the sqlalchemy library
 ## Housing dataset
 - Site units (Total) 
 - Project total units (Total)
+
+# Hypotheses and correlation tests
+Variables to be used:
+- Score
+- Construction type
+- Site units
+- Project total units
+- Housing type
+- Supportive housing
+- LAHD funds
+- Leverage
+- Tax benefits
+- Total development cost
+  
+# Hypothesis testing  
+## Alternate hypothesis
+The statistics of affordable housing projects has a relation to the health inspection scores of the restaurants in that ZIP code  
+## Null hypothesis
+There is no correlation between teh datasets
+## Correlation metric 
+Pearson correlation coefficient
+## Columns used for correlation calculation (For a given ZIP code)
+#### Restaurant dataset
+1. Average score
+2. Maximum score
+3. Minimum score
+#### Housing dataset
+1. total_site_units  
+2. total_project_units  
+3. total_lahd_fund  
+4. total_leverage  
+5. total_tax_exempt  
+6. total_spending  
+## Test statistic 
+t-value for correlation = r and degrees of freedom = n - 2
+## Significance level and critical t-value
+For a 95% conifdence level, we get the sinificance level of 0.05, and since we are using a two tailed test(testing for both positive and negative correlations), we'll use 0.05/2 = 0.025 as the significance level to reject the null hypothesis  
+Looking up the t-distribution table for significance level = 0.025 and degrees of freedom = 53 - 2 = 51, we get the critical t-value as 2.31 
