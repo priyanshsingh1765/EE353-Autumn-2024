@@ -5,10 +5,10 @@ The following dataset, uploaded on Kaggle, was used for the assignment: [Dataset
 - It describes the usage behaviour of 9000 active credit card holders for a duration of 6 months.
 -
 - It consists of the following information about a customer:
-    'BALANCE' - Balance amount left in the account
-    'BALANCE_FREQUENCY' - How frequently the Balance is updated
-    'PURCHASES' - Amount of purchases made
-    'ONEOFF_PURCHASES' - Maximum purchase amount did in one-go
+    'BALANCE' - Balance amount left in the account  
+    'BALANCE_FREQUENCY' - How frequently the Balance is updated  
+    'PURCHASES' - Amount of purchases made  
+    'ONEOFF_PURCHASES' - Maximum purchase amount did in one-go  
     'INSTALLMENTS_PURCHASES' - Amount of purchase done in installment
     'CASH_ADVANCE' - Cash in advance given by the user
     'PURCHASES_FREQUENCY' - How frequently the Purchases are being made
