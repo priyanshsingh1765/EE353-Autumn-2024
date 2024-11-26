@@ -3,8 +3,7 @@
 The following dataset, uploaded on Kaggle, was used for the assignment: [Dataset](https://www.kaggle.com/datasets/alirezachahardoli/customer-data-clustring)
 ## Description of the Dataset
 - It describes the usage behaviour of 9000 active credit card holders for a duration of 6 months.
--
-- It consists of the following information about a customer:
+- It consists of the following information about a customer:  
     'BALANCE' - Balance amount left in the account  
     'BALANCE_FREQUENCY' - How frequently the Balance is updated  
     'PURCHASES' - Amount of purchases made  
